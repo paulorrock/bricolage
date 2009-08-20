@@ -69,6 +69,10 @@ C<get_last_error()> was removed from L<XML::LibXML|XML::LibXML> 1.59 "for
 thread-saftey reasons." This change backward-compatible with older versions of
 XML::LibXML. [David]
 
+=item * 
+
+Media Templates
+
 =back
 
 =head2 Improvements
