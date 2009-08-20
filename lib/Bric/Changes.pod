@@ -48,7 +48,8 @@ directive is now enabled by default, as well. [David]
 
 =item *
 
-Added the following aliases, so I can pretend that the versions with double underscores don't exist:
+Added the following aliases, so I can pretend that the versions with double 
+underscores don't exist:
 
 =over
 
@@ -66,7 +67,7 @@ Added the following aliases, so I can pretend that the versions with double unde
 
 Fixed a compatibility issue in Bric::Dist::Action::DTDValidate. Apparently
 C<get_last_error()> was removed from L<XML::LibXML|XML::LibXML> 1.59 "for
-thread-saftey reasons." This change backward-compatible with older versions of
+thread-safety reasons." This change backward-compatible with older versions of
 XML::LibXML. [David]
 
 =back
