@@ -193,6 +193,10 @@ will be executed. [Paul Orrock]
 Added the C<timeout> attribute to L<Bric::Dist::Client|Bric::Dist::Client> and
 the corresponding C<-t> option to L<bric_dist_mon|bric_dist_mon>. [David]
 
+=item *
+
+Added the C<--match-title> option to F<contrib/bric_media_upload>. This will match the uploading filename against the title of the media object rather than the filename [Paul Orrock]
+
 =back
 
 =head2 Bug Fixes
